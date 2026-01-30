@@ -1,0 +1,122 @@
+[
+  {
+    "tcId": "Pos_Fun_0001",
+    "input": "mama gedhara yanavaa",
+    "expectedOutput": "මම ගෙදර යනවා"
+  },
+  {
+    "tcId": "Pos_Fun_0002",
+    "input": "mata bath oonee",
+    "expectedOutput": "මට බත් ඕනේ"
+  },
+  {
+    "tcId": "Pos_Fun_0003",
+    "input": "api kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa",
+    "expectedOutput": "අපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයකුත් බලනවා"
+  },
+  {
+    "tcId": "Pos_Fun_0004",
+    "input": "oya enavaanam mama balan innavaa",
+    "expectedOutput": "ඔය එනවානම් මම බලන් ඉන්නවා"
+  },
+  {
+    "tcId": "Pos_Fun_0005",
+    "input": "oyaata kohomadha?",
+    "expectedOutput": "ඔයාට කොහොමද?"
+  },
+  {
+    "tcId": "Pos_Fun_0006",
+    "input": "vahaama enna",
+    "expectedOutput": "වහාම එන්න"
+  },
+  {
+    "tcId": "Pos_Fun_0007",
+    "input": "mama ehema karannee naehae",
+    "expectedOutput": "මම එහෙම කරන්නේ නැහැ"
+  },
+  {
+    "tcId": "Pos_Fun_0008",
+    "input": "aayuboovan!",
+    "expectedOutput": "ආයුබෝවන්!"
+  },
+  {
+    "tcId": "Pos_Fun_0009",
+    "input": "karuNaakaralaa mata podi udhavvak karanna puLuvandha?",
+    "expectedOutput": "කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?"
+  },
+  {
+    "tcId": "Pos_Fun_0010",
+    "input": "ehema karapan",
+    "expectedOutput": "එහෙම කරපන්"
+  },
+  {
+    "tcId": "Pos_Fun_0011",
+    "input": "mama dhaen vaeda karanavaa",
+    "expectedOutput": "මම දැන් වැඩ කරනවා"
+  },
+  {
+    "tcId": "Pos_Fun_0012",
+    "input": "mama iiyee gedhara giyaa",
+    "expectedOutput": "මම ඊයේ ගෙදර ගියා"
+  },
+  {
+    "tcId": "Pos_Fun_0013",
+    "input": "mama heta enavaa",
+    "expectedOutput": "මම හෙට එනවා"
+  },
+  {
+    "tcId": "Pos_Fun_0014",
+    "input": "api yamu",
+    "expectedOutput": "අපි යමු"
+  },
+  {
+    "tcId": "Pos_Fun_0015",
+    "input": "hari hari",
+    "expectedOutput": "හරි හරි"
+  },
+  {
+    "tcId": "Pos_Fun_0016",
+    "input": "piti 10 kg genna",
+    "expectedOutput": "පිටි 10 kg ගෙන්න"
+  },
+  {
+    "tcId": "Pos_Fun_0017",
+    "input": "Zoom meeting ekak thiyennee",
+    "expectedOutput": "Zoom meeting එකක් තියෙන්නේ"
+  },
+  {
+    "tcId": "Pos_Fun_0018",
+    "input": "api trip eka Kandy valata yamudha",
+    "expectedOutput": "අපි trip එක Kandy වලට යමුද"
+  },
+  {
+    "tcId": "Pos_Fun_0019",
+    "input": "magee NIC eka ganna",
+    "expectedOutput": "මගේ NIC එක ගන්න"
+  },
+  {
+    "tcId": "Pos_Fun_0020",
+    "input": "Rs. 5343",
+    "expectedOutput": "Rs. 5343"
+  },
+  {
+    "tcId": "Pos_Fun_0021",
+    "input": "25/12/2025",
+    "expectedOutput": "25/12/2025"
+  },
+  {
+    "tcId": "Pos_Fun_0022",
+    "input": "mata   raeeta kanna bath   oonee",
+    "expectedOutput": "මට   රෑට කන්න බත්   ඕනේ"
+  },
+  {
+    "tcId": "Pos_Fun_0023",
+    "input": "ela machan! Supiri !!",
+    "expectedOutput": "එල මචන්! සුපිරි !!"
+  },
+  {
+    "tcId": "Pos_Fun_0024",
+    "input": "dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva \naethi athara, ehi samastha dhiga pramaaNaya kiloomiitar 300k pamaNa vana bava pravaahana,mahaamaarga saha naagarika sQQvarDhana amaathYa bimal rathnaayaka \nsaDHahan kaLeeya.",
+    "expectedOutput": "දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව \nඇති අතර, එහි සමස්ත දිග ප්‍රමාණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන,මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක \nසඳහන් කළේය."
+  }
+]

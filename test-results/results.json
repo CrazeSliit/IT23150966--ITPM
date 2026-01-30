@@ -1,0 +1,2223 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ASUS\\Desktop\\IT23150966\\playwright.config.ts",
+    "rootDir": "C:/Users/ASUS/Desktop/IT23150966/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ASUS/Desktop/IT23150966/screenshots",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/ASUS/Desktop/IT23150966/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "C:\\Users\\ASUS\\Desktop\\IT23150966\\custom-reporter.ts",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "negative-functional.spec.ts",
+      "file": "negative-functional.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Negative Functional Tests - Robustness Validation",
+          "file": "negative-functional.spec.ts",
+          "line": 54,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Neg_Fun_0001 - Test robustness for: \"MaMa GeDaRa YaNaVa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 18096,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0001\n"
+                        },
+                        {
+                          "text": "Input (Problematic): MaMa GeDaRa YaNaVa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මම ඟෙඪRඅ YඅණVඅ\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මම ඟෙඪRඅ YඅණVඅ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: මම ඟෙඪRඅ YඅණVඅ\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:23.871Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-d8f0af4ec5182c27d58a",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0002 - Test robustness for: \"mama gedhara yanavaaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 18160,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0002\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mama gedhara yanavaaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මම ගෙදර යනවාඅ\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මම ගෙදර යනවාඅ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: මම ගෙදර යනවාඅ\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:23.903Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-09560f69c59876d51f6c",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0003 - Test robustness for: \"www.sliit.lk\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 18221,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0003\n"
+                        },
+                        {
+                          "text": "Input (Problematic): www.sliit.lk\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): www.ස්ලීට්.ල්ක්\n"
+                        },
+                        {
+                          "text": "Actual Output (System): www.ස්ලීට්.ල්ක්\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: www.ස්ලීට්.ල්ක්\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:23.838Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-e40835a5c5cef91385ab",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0004 - Test robustness for: \"mama gedhara yanawa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 18244,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0004\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mama gedhara yanawa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මම ගෙදර යනwඅ\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මම ගෙදර යනwඅ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: මම ගෙදර යනwඅ\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:23.872Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-7c4b78620d35fbc0ea48",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0005 - Test robustness for: \"mma gedhara yanava\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 18148,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0005\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mma gedhara yanava\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): ම්ම ගෙදර යනව\n"
+                        },
+                        {
+                          "text": "Actual Output (System): ම්ම ගෙදර යනව\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: ම්ම ගෙදර යනව\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:23.890Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-51e959bea730d4708202",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0006 - Test robustness for: \"mama gedhara yanavaa \n oyaa enavadha\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 17674,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0006\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mama gedhara yanavaa \n oyaa enavadha\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මම ගෙදර යනවා \n ඔයා එනවද\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මම ගෙදර යනවා \n ඔයා එනවද\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: මම ගෙදර යනවා \n ඔයා එනවද\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:23.966Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-a0071d315d2b95385167",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0007 - Test robustness for: \"mata id eka amathaka velaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 7480,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0007\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mata id eka amathaka velaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මට ඉඩ් එක අමතක වෙලා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මට ඉඩ් එක අමතක වෙලා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: මට ඉඩ් එක අමතක වෙලා\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:47.263Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-ef4a06b202d06ba44292",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0008 - Test robustness for: \"aiya api gedhara yamuda\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7222,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0008\n"
+                        },
+                        {
+                          "text": "Input (Problematic): aiya api gedhara yamuda\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): ඓය අපි ගෙදර යමුඩ\n"
+                        },
+                        {
+                          "text": "Actual Output (System): ඓය අපි ගෙදර යමුඩ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: ඓය අපි ගෙදර යමුඩ\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:47.864Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-d607ec58fdbd2bc4f81b",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0009 - Test robustness for: \"api 2 denek gedhara yanavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 7356,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0009\n"
+                        },
+                        {
+                          "text": "Input (Problematic): api 2 denek gedhara yanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): අපි 2 ඩෙනෙක් ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): අපි 2 ඩෙනෙක් ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: අපි 2 ඩෙනෙක් ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:47.897Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-f467c25b2ceb297753dc",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0010 - Test robustness for: \"mamagedharayanavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 7266,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0010\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mamagedharayanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මමගෙදරයනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මමගෙදරයනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS (Actual system behavior documented)\n"
+                        },
+                        {
+                          "text": "System Output: මමගෙදරයනවා\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Page remained responsive despite problematic input\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:48.000Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0058f97a85c72d716ed9-923bd46bb192f3446d61",
+              "file": "negative-functional.spec.ts",
+              "line": 69,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "positive-functional.spec.ts",
+      "file": "positive-functional.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Positive Functional Tests - Singlish to Sinhala Transliteration",
+          "file": "positive-functional.spec.ts",
+          "line": 45,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_Fun_0001 - Verify transliteration for: \"mama gedhara yanavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7400,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0001\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama gedhara yanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:48.044Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-84caddb1487cf029c76c",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0002 - Verify transliteration for: \"mata bath oonee\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7356,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0002\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mata bath oonee\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මට බත් ඕනේ\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මට බත් ඕනේ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:48.170Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-62521ec3b8b5d1ef961d",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0003 - Verify transliteration for: \"api kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 6927,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0003\n"
+                        },
+                        {
+                          "text": "Input (Singlish): api kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): අපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයකුත් බලනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): අපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයකුත් බලනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:54.778Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-68e38aec7e82e76a1c51",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0004 - Verify transliteration for: \"oya enavaanam mama balan innavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 6903,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0004\n"
+                        },
+                        {
+                          "text": "Input (Singlish): oya enavaanam mama balan innavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): ඔය එනවානම් මම බලන් ඉන්නවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): ඔය එනවානම් මම බලන් ඉන්නවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:55.128Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-08a3bab6c5e52bf82cd1",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0005 - Verify transliteration for: \"oyaata kohomadha?\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 6986,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0005\n"
+                        },
+                        {
+                          "text": "Input (Singlish): oyaata kohomadha?\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): ඔයාට කොහොමද?\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): ඔයාට කොහොමද?\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:55.305Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-3c27e93be7fb502edba7",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0006 - Verify transliteration for: \"vahaama enna\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 6996,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0006\n"
+                        },
+                        {
+                          "text": "Input (Singlish): vahaama enna\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): වහාම එන්න\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): වහාම එන්න\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:55.332Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-36b416a96cd687faa7ab",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0007 - Verify transliteration for: \"mama ehema karannee naehae\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 8798,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0007\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama ehema karannee naehae\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම එහෙම කරන්නේ නැහැ\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම එහෙම කරන්නේ නැහැ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:55.484Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-53406059817eb07f205e",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0008 - Verify transliteration for: \"aayuboovan!\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8820,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0008\n"
+                        },
+                        {
+                          "text": "Input (Singlish): aayuboovan!\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): ආයුබෝවන්!\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): ආයුබෝවන්!\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:46:55.566Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-040f18280eb7aa16abc6",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0009 - Verify transliteration for: \"karuNaakaralaa mata podi udhavvak karanna puLuvandha?\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 6751,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0009\n"
+                        },
+                        {
+                          "text": "Input (Singlish): karuNaakaralaa mata podi udhavvak karanna puLuvandha?\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:01.725Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-9262ae5027c075d2440d",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0010 - Verify transliteration for: \"ehema karapan\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 6790,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0010\n"
+                        },
+                        {
+                          "text": "Input (Singlish): ehema karapan\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): එහෙම කරපන්\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): එහෙම කරපන්\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:02.057Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-de06d8111a8eab00c71e",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0011 - Verify transliteration for: \"mama dhaen vaeda karanavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 6885,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0011\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama dhaen vaeda karanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම දැන් වැඩ කරනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම දැන් වැඩ කරනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:02.325Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-e06b5c5336a232f4325e",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0012 - Verify transliteration for: \"mama iiyee gedhara giyaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 6869,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0012\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama iiyee gedhara giyaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම ඊයේ ගෙදර ගියා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම ඊයේ ගෙදර ගියා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:02.369Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-cc89e75929e62ffee8ce",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0013 - Verify transliteration for: \"mama heta enavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 8554,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0013\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama heta enavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම හෙට එනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම හෙට එනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:04.312Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-34330814c0992b9fedc2",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0014 - Verify transliteration for: \"api yamu\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8630,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0014\n"
+                        },
+                        {
+                          "text": "Input (Singlish): api yamu\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): අපි යමු\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): අපි යමු\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:04.414Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-c85f48753520af34bf1e",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0015 - Verify transliteration for: \"hari hari\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 6884,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0015\n"
+                        },
+                        {
+                          "text": "Input (Singlish): hari hari\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): හරි හරි\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): හරි හරි\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:08.495Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-e52f98fa2cb9f60287b7",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0016 - Verify transliteration for: \"piti 10 kg genna\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 6952,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0016\n"
+                        },
+                        {
+                          "text": "Input (Singlish): piti 10 kg genna\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): පිටි 10 kg ගෙන්න\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): පිටි 10 kg ගෙන්න\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:08.865Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-73edc4ab6a1fdc97e1d3",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0017 - Verify transliteration for: \"Zoom meeting ekak thiyennee\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 6946,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0017\n"
+                        },
+                        {
+                          "text": "Input (Singlish): Zoom meeting ekak thiyennee\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): Zoom meeting එකක් තියෙන්නේ\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): Zoom meeting එකක් තියෙන්නේ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:09.239Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-57045fa66a60df8a3916",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0018 - Verify transliteration for: \"api trip eka Kandy valata yamudha\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 6953,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0018\n"
+                        },
+                        {
+                          "text": "Input (Singlish): api trip eka Kandy valata yamudha\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): අපි trip එක Kandy වලට යමුද\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): අපි trip එක Kandy වලට යමුද\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:09.271Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-3dade0ba22ffa3562016",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0019 - Verify transliteration for: \"magee NIC eka ganna\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 8716,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0019\n"
+                        },
+                        {
+                          "text": "Input (Singlish): magee NIC eka ganna\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මගේ NIC එක ගන්න\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මගේ NIC එක ගන්න\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:12.886Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-82f0dd27c2b8b1c2e044",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0020 - Verify transliteration for: \"Rs. 5343\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8888,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0020\n"
+                        },
+                        {
+                          "text": "Input (Singlish): Rs. 5343\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): Rs. 5343\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): Rs. 5343\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:13.065Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-ae08dd31d55eef3048ab",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0021 - Verify transliteration for: \"25/12/2025\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 7006,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0021\n"
+                        },
+                        {
+                          "text": "Input (Singlish): 25/12/2025\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): 25/12/2025\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): 25/12/2025\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:15.401Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-7180e7cca883c2a02f66",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0022 - Verify transliteration for: \"mata   raeeta kanna bath   oonee\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7042,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0022\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mata   raeeta kanna bath   oonee\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මට   රෑට කන්න බත්   ඕනේ\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මට   රෑට කන්න බත්   ඕනේ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:15.843Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-c5ee06676692f4bd5d28",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0023 - Verify transliteration for: \"ela machan! Supiri !!\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 7071,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0023\n"
+                        },
+                        {
+                          "text": "Input (Singlish): ela machan! Supiri !!\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): එල මචන්! සුපිරි !!\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): එල මචන්! සුපිරි !!\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:16.211Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-61ddd2cec6ba32ca1d79",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0024 - Verify transliteration for: \"dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva \naethi athara, ehi samastha dhiga pramaaNaya kiloomiitar 300k pamaNa vana bava pravaahana,mahaamaarga saha naagarika sQQvarDhana amaathYa bimal rathnaayaka \nsaDHahan kaLeeya.\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 7202,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0024\n"
+                        },
+                        {
+                          "text": "Input (Singlish): dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva \naethi athara, ehi samastha dhiga pramaaNaya kiloomiitar 300k pamaNa vana bava pravaahana,mahaamaarga saha naagarika sQQvarDhana amaathYa bimal rathnaayaka \nsaDHahan kaLeeya.\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව \nඇති අතර, එහි සමස්ත දිග ප්‍රමාණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන,මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක \nසඳහන් කළේය.\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව \nඇති අතර, එහි සමස්ත දිග ප්‍රමාණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන,මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක \nසඳහන් කළේය.\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:16.255Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30bca1e37951cee21b8d-97be06421065255073d8",
+              "file": "positive-functional.spec.ts",
+              "line": 60,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui.spec.ts",
+      "file": "ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "UI Behavior Tests - Real-time Conversion & Usability",
+          "file": "ui.spec.ts",
+          "line": 46,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_UI_0001 - Verify real-time Sinhala output updates automatically while typing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 21709,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "UI Test Case ID: Pos_UI_0001\n"
+                        },
+                        {
+                          "text": "Test Focus: Real-time conversion behavior\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "✅ Initial State: Input and output fields are empty\n"
+                        },
+                        {
+                          "text": "\n📝 Typing input: \"mama gedhara yanavaa\"\n"
+                        },
+                        {
+                          "text": "\n✅ Real-time Conversion Test:\n"
+                        },
+                        {
+                          "text": "   Input (Singlish): mama gedhara yanavaa\n"
+                        },
+                        {
+                          "text": "   Output (Sinhala): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "   Expected: මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "\n✅ Output matches expected - Real-time conversion working!\n"
+                        },
+                        {
+                          "text": "\n✅ Confirmed: Conversion happened automatically (no button click required)\n"
+                        },
+                        {
+                          "text": "\n🧹 Testing input clear functionality...\n"
+                        },
+                        {
+                          "text": "✅ Input clear behavior: Output also cleared automatically\n"
+                        },
+                        {
+                          "text": "\n🔍 Checking page responsiveness...\n"
+                        },
+                        {
+                          "text": "✅ Page is responsive - No crashes or freezes detected\n"
+                        },
+                        {
+                          "text": "\n🔄 Testing multiple conversions...\n"
+                        },
+                        {
+                          "text": "✅ Multiple conversions work consistently\n"
+                        },
+                        {
+                          "text": "\n🔍 JavaScript Error Check:\n"
+                        },
+                        {
+                          "text": "✅ No JavaScript errors detected during operations\n"
+                        },
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "UI TEST SUMMARY - Pos_UI_0001\n"
+                        },
+                        {
+                          "text": "========================================\n"
+                        },
+                        {
+                          "text": "✅ Real-time conversion: WORKING\n"
+                        },
+                        {
+                          "text": "✅ No button click required: CONFIRMED\n"
+                        },
+                        {
+                          "text": "✅ Input clear behavior: WORKING\n"
+                        },
+                        {
+                          "text": "✅ Page responsiveness: STABLE\n"
+                        },
+                        {
+                          "text": "✅ Multiple conversions: CONSISTENT\n"
+                        },
+                        {
+                          "text": "✅ Overall UI behavior: PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T07:47:21.619Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d425444c687fa36b5882-705cc09092d9445eb99b",
+              "file": "ui.spec.ts",
+              "line": 62,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-30T07:46:21.472Z",
+    "duration": 81941.874,
+    "expected": 35,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "tcId": "Neg_Fun_0001",
+    "input": "MaMa GeDaRa YaNaVa",
+    "expectedOutput": "මම ඟෙඪRඅ YඅණVඅ"
+  },
+  {
+    "tcId": "Neg_Fun_0002",
+    "input": "mama gedhara yanavaaa",
+    "expectedOutput": "මම ගෙදර යනවාඅ"
+  },
+  {
+    "tcId": "Neg_Fun_0003",
+    "input": "www.sliit.lk",
+    "expectedOutput": "www.ස්ලීට්.ල්ක්"
+  },
+  {
+    "tcId": "Neg_Fun_0004",
+    "input": "mama gedhara yanawa",
+    "expectedOutput": "මම ගෙදර යනwඅ"
+  },
+  {
+    "tcId": "Neg_Fun_0005",
+    "input": "mma gedhara yanava",
+    "expectedOutput": "ම්ම ගෙදර යනව"
+  },
+  {
+    "tcId": "Neg_Fun_0006",
+    "input": "mama gedhara yanavaa \n oyaa enavadha",
+    "expectedOutput": "මම ගෙදර යනවා \n ඔයා එනවද"
+  },
+  {
+    "tcId": "Neg_Fun_0007",
+    "input": "mata id eka amathaka velaa",
+    "expectedOutput": "මට ඉඩ් එක අමතක වෙලා"
+  },
+  {
+    "tcId": "Neg_Fun_0008",
+    "input": "aiya api gedhara yamuda",
+    "expectedOutput": "ඓය අපි ගෙදර යමුඩ"
+  },
+  {
+    "tcId": "Neg_Fun_0009",
+    "input": "api 2 denek gedhara yanavaa",
+    "expectedOutput": "අපි 2 ඩෙනෙක් ගෙදර යනවා"
+  },
+  {
+    "tcId": "Neg_Fun_0010",
+    "input": "mamagedharayanavaa",
+    "expectedOutput": "මමගෙදරයනවා"
+  }
+]
