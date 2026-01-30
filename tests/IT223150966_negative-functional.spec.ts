@@ -36,7 +36,7 @@ import * as path from 'path';
  * Negative tests are allowed to FAIL - they test edge cases and robustness.
  * The goal is to document system behavior under incorrect inputs.
  * 
- * @author IT23243026 - University Assignment (IT3040 ITPM Semester 1)
+ * @author IT23150966 - University Assignment (IT3040 ITPM Semester 1)
  */
 
 // Step 1: Define interface for test case structure

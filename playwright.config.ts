@@ -8,7 +8,7 @@ import { defineConfig, devices } from '@playwright/test';
  * Purpose: Configure Playwright test runner settings
  * Project: SwiftTranslator Automation Testing
  * Course: IT3040 - ITPM Semester 1
- * Student ID: IT23243026
+ * Student ID: IT23150966
  * 
  * This configuration defines:
  * - Test directory location

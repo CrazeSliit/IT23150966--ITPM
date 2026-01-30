@@ -7,7 +7,7 @@ import { Page, Locator } from '@playwright/test';
  * Purpose: Provides reusable methods for testing Singlish to Sinhala transliteration
  * Features: Real-time conversion testing, input/output validation, element interaction
  * 
- * @author IT23243026 - University Assignment (IT3040 ITPM Semester 1)
+ * @author IT23150966 - University Assignment (IT3040 ITPM Semester 1)
  */
 export class TranslatorPage {
   // Page instance for browser interaction

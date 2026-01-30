@@ -28,7 +28,7 @@ import * as path from 'path';
  * - Clear input should also clear output
  * - No page crashes or JavaScript errors
  * 
- * @author IT23243026 - University Assignment (IT3040 ITPM Semester 1)
+ * @author IT23150966 - University Assignment (IT3040 ITPM Semester 1)
  */
 
 // Step 1: Define interface for UI test case structure
