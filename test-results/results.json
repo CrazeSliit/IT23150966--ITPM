@@ -71,15 +71,15 @@
   },
   "suites": [
     {
-      "title": "negative-functional.spec.ts",
-      "file": "negative-functional.spec.ts",
+      "title": "IT223150966_negative-functional.spec.ts",
+      "file": "IT223150966_negative-functional.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Negative Functional Tests - Robustness Validation",
-          "file": "negative-functional.spec.ts",
+          "file": "IT223150966_negative-functional.spec.ts",
           "line": 54,
           "column": 6,
           "specs": [
@@ -99,7 +99,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18096,
+                      "duration": 7514,
                       "errors": [],
                       "stdout": [
                         {
@@ -132,7 +132,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:23.871Z",
+                      "startTime": "2026-01-30T08:05:37.293Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -140,8 +140,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-d8f0af4ec5182c27d58a",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-79a9e4998b61063d0229",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             },
@@ -161,7 +161,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 18160,
+                      "duration": 7705,
                       "errors": [],
                       "stdout": [
                         {
@@ -194,7 +194,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:23.903Z",
+                      "startTime": "2026-01-30T08:05:37.320Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -202,8 +202,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-09560f69c59876d51f6c",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-21416207eb2605579ad5",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             },
@@ -223,7 +223,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 18221,
+                      "duration": 7659,
                       "errors": [],
                       "stdout": [
                         {
@@ -256,7 +256,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:23.838Z",
+                      "startTime": "2026-01-30T08:05:37.364Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -264,8 +264,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-e40835a5c5cef91385ab",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-c5f0d69c9dd1fe4ec162",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             },
@@ -285,7 +285,7 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 18244,
+                      "duration": 7616,
                       "errors": [],
                       "stdout": [
                         {
@@ -318,7 +318,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:23.872Z",
+                      "startTime": "2026-01-30T08:05:37.265Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -326,8 +326,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-7c4b78620d35fbc0ea48",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-fe9820e9050969007792",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             },
@@ -347,7 +347,7 @@
                       "workerIndex": 4,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 18148,
+                      "duration": 7723,
                       "errors": [],
                       "stdout": [
                         {
@@ -380,7 +380,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:23.890Z",
+                      "startTime": "2026-01-30T08:05:37.304Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -388,8 +388,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-51e959bea730d4708202",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-9c6fd15b344430275d8f",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             },
@@ -409,7 +409,7 @@
                       "workerIndex": 5,
                       "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 17674,
+                      "duration": 7615,
                       "errors": [],
                       "stdout": [
                         {
@@ -442,7 +442,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:23.966Z",
+                      "startTime": "2026-01-30T08:05:37.392Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -450,8 +450,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-a0071d315d2b95385167",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-42cf4d604bdfd2118e10",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             },
@@ -468,10 +468,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 5,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7480,
+                      "duration": 9264,
                       "errors": [],
                       "stdout": [
                         {
@@ -504,7 +504,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:47.263Z",
+                      "startTime": "2026-01-30T08:05:47.062Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -512,8 +512,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-ef4a06b202d06ba44292",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-0ef297441bf08ab6221e",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             },
@@ -530,10 +530,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 7222,
+                      "duration": 9337,
                       "errors": [],
                       "stdout": [
                         {
@@ -566,7 +566,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:47.864Z",
+                      "startTime": "2026-01-30T08:05:47.163Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -574,8 +574,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-d607ec58fdbd2bc4f81b",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-3fa6e383341fdeedd154",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             },
@@ -592,10 +592,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 7356,
+                      "duration": 9286,
                       "errors": [],
                       "stdout": [
                         {
@@ -628,7 +628,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:47.897Z",
+                      "startTime": "2026-01-30T08:05:47.327Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -636,8 +636,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-f467c25b2ceb297753dc",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-56263868fcd5bef707c8",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             },
@@ -654,10 +654,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 7266,
+                      "duration": 9454,
                       "errors": [],
                       "stdout": [
                         {
@@ -690,7 +690,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:48.000Z",
+                      "startTime": "2026-01-30T08:05:47.431Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -698,8 +698,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "0058f97a85c72d716ed9-923bd46bb192f3446d61",
-              "file": "negative-functional.spec.ts",
+              "id": "c889abedc07620298fbd-2302215a8c5bf76d49ab",
+              "file": "IT223150966_negative-functional.spec.ts",
               "line": 69,
               "column": 9
             }
@@ -708,15 +708,15 @@
       ]
     },
     {
-      "title": "positive-functional.spec.ts",
-      "file": "positive-functional.spec.ts",
+      "title": "IT223150966_positive-functional.spec.ts",
+      "file": "IT223150966_positive-functional.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Positive Functional Tests - Singlish to Sinhala Transliteration",
-          "file": "positive-functional.spec.ts",
+          "file": "IT223150966_positive-functional.spec.ts",
           "line": 45,
           "column": 6,
           "specs": [
@@ -733,10 +733,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 7400,
+                      "duration": 9332,
                       "errors": [],
                       "stdout": [
                         {
@@ -763,7 +763,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:48.044Z",
+                      "startTime": "2026-01-30T08:05:47.452Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -771,8 +771,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-84caddb1487cf029c76c",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-5253ffba3d0c703173a5",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -789,10 +789,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 7356,
+                      "duration": 9378,
                       "errors": [],
                       "stdout": [
                         {
@@ -819,7 +819,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:48.170Z",
+                      "startTime": "2026-01-30T08:05:47.506Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -827,8 +827,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-62521ec3b8b5d1ef961d",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-909a2386f7b48f0abdcc",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -845,10 +845,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 5,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6927,
+                      "duration": 8922,
                       "errors": [],
                       "stdout": [
                         {
@@ -875,7 +875,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:54.778Z",
+                      "startTime": "2026-01-30T08:05:56.364Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -883,8 +883,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-68e38aec7e82e76a1c51",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-ffa4939bbb7a3b2c45c8",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -901,10 +901,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 6903,
+                      "duration": 9176,
                       "errors": [],
                       "stdout": [
                         {
@@ -931,7 +931,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:55.128Z",
+                      "startTime": "2026-01-30T08:05:56.545Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -939,8 +939,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-08a3bab6c5e52bf82cd1",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-dbde30f86adae89e9c81",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -957,10 +957,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 6986,
+                      "duration": 9217,
                       "errors": [],
                       "stdout": [
                         {
@@ -987,7 +987,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:55.305Z",
+                      "startTime": "2026-01-30T08:05:56.667Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -995,8 +995,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-3c27e93be7fb502edba7",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-2cd2b625d37db48d93f8",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1013,10 +1013,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6996,
+                      "duration": 9249,
                       "errors": [],
                       "stdout": [
                         {
@@ -1043,7 +1043,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:55.332Z",
+                      "startTime": "2026-01-30T08:05:56.827Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1051,8 +1051,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-36b416a96cd687faa7ab",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-f03191358732074a94b9",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1069,10 +1069,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 8798,
+                      "duration": 9238,
                       "errors": [],
                       "stdout": [
                         {
@@ -1099,7 +1099,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:55.484Z",
+                      "startTime": "2026-01-30T08:05:56.920Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1107,8 +1107,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-53406059817eb07f205e",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-c3919af605d5d0d55c8d",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1125,10 +1125,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 8820,
+                      "duration": 9282,
                       "errors": [],
                       "stdout": [
                         {
@@ -1155,7 +1155,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:46:55.566Z",
+                      "startTime": "2026-01-30T08:05:56.939Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1163,8 +1163,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-040f18280eb7aa16abc6",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-1ba68cf40ea49aab9416",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1181,10 +1181,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 5,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6751,
+                      "duration": 9000,
                       "errors": [],
                       "stdout": [
                         {
@@ -1211,7 +1211,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:01.725Z",
+                      "startTime": "2026-01-30T08:06:05.313Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1219,8 +1219,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-9262ae5027c075d2440d",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-885f2841cd8cd4febd85",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1237,10 +1237,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 6790,
+                      "duration": 9098,
                       "errors": [],
                       "stdout": [
                         {
@@ -1267,7 +1267,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:02.057Z",
+                      "startTime": "2026-01-30T08:06:05.748Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1275,8 +1275,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-de06d8111a8eab00c71e",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-bcff75f6bc99b8336105",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1293,10 +1293,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 6885,
+                      "duration": 9088,
                       "errors": [],
                       "stdout": [
                         {
@@ -1323,7 +1323,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:02.325Z",
+                      "startTime": "2026-01-30T08:06:05.921Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1331,8 +1331,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-e06b5c5336a232f4325e",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-4a53f9998b056eb92c03",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1349,10 +1349,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6869,
+                      "duration": 9126,
                       "errors": [],
                       "stdout": [
                         {
@@ -1379,7 +1379,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:02.369Z",
+                      "startTime": "2026-01-30T08:06:06.112Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1387,8 +1387,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-cc89e75929e62ffee8ce",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-050df52287f1125a1160",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1405,10 +1405,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 8554,
+                      "duration": 9089,
                       "errors": [],
                       "stdout": [
                         {
@@ -1435,7 +1435,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:04.312Z",
+                      "startTime": "2026-01-30T08:06:06.188Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1443,8 +1443,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-34330814c0992b9fedc2",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-2570d409c5fdd3f9c95f",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1461,10 +1461,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 8630,
+                      "duration": 9190,
                       "errors": [],
                       "stdout": [
                         {
@@ -1491,7 +1491,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:04.414Z",
+                      "startTime": "2026-01-30T08:06:06.254Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1499,8 +1499,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-c85f48753520af34bf1e",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-492f177f7187b60eebba",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1517,10 +1517,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 5,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6884,
+                      "duration": 8595,
                       "errors": [],
                       "stdout": [
                         {
@@ -1547,7 +1547,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:08.495Z",
+                      "startTime": "2026-01-30T08:06:14.337Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1555,8 +1555,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-e52f98fa2cb9f60287b7",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-e556a3814a34867c1940",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1573,10 +1573,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 6952,
+                      "duration": 8967,
                       "errors": [],
                       "stdout": [
                         {
@@ -1603,7 +1603,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:08.865Z",
+                      "startTime": "2026-01-30T08:06:14.871Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1611,8 +1611,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-73edc4ab6a1fdc97e1d3",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-73ca0fe39be8716d5911",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1629,10 +1629,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 6946,
+                      "duration": 9076,
                       "errors": [],
                       "stdout": [
                         {
@@ -1659,7 +1659,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:09.239Z",
+                      "startTime": "2026-01-30T08:06:15.041Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1667,8 +1667,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-57045fa66a60df8a3916",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-b5b7d86212f78be4531f",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1685,10 +1685,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6953,
+                      "duration": 9143,
                       "errors": [],
                       "stdout": [
                         {
@@ -1715,7 +1715,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:09.271Z",
+                      "startTime": "2026-01-30T08:06:15.276Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1723,8 +1723,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-3dade0ba22ffa3562016",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-cc70884c6f36632dd169",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1741,10 +1741,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 8716,
+                      "duration": 9098,
                       "errors": [],
                       "stdout": [
                         {
@@ -1771,7 +1771,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:12.886Z",
+                      "startTime": "2026-01-30T08:06:15.317Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1779,8 +1779,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-82f0dd27c2b8b1c2e044",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-ebecdede0087b40753fb",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1797,10 +1797,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 8888,
+                      "duration": 9131,
                       "errors": [],
                       "stdout": [
                         {
@@ -1827,7 +1827,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:13.065Z",
+                      "startTime": "2026-01-30T08:06:15.475Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1835,8 +1835,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-ae08dd31d55eef3048ab",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-4b0d969e0f645a0396d4",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1853,10 +1853,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 5,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7006,
+                      "duration": 8345,
                       "errors": [],
                       "stdout": [
                         {
@@ -1883,7 +1883,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:15.401Z",
+                      "startTime": "2026-01-30T08:06:22.952Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1891,8 +1891,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-7180e7cca883c2a02f66",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-7d9d31bf21421852eb17",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1909,10 +1909,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 7042,
+                      "duration": 9132,
                       "errors": [],
                       "stdout": [
                         {
@@ -1939,7 +1939,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:15.843Z",
+                      "startTime": "2026-01-30T08:06:23.859Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1947,8 +1947,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-c5ee06676692f4bd5d28",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-386f45b009e796dc43dc",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1965,10 +1965,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 7071,
+                      "duration": 8949,
                       "errors": [],
                       "stdout": [
                         {
@@ -1995,7 +1995,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:16.211Z",
+                      "startTime": "2026-01-30T08:06:24.143Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2003,8 +2003,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-61ddd2cec6ba32ca1d79",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-caf2ea2f697dbaa78964",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -2021,10 +2021,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 7202,
+                      "duration": 6980,
                       "errors": [],
                       "stdout": [
                         {
@@ -2051,7 +2051,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:16.255Z",
+                      "startTime": "2026-01-30T08:06:24.447Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2059,8 +2059,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "30bca1e37951cee21b8d-97be06421065255073d8",
-              "file": "positive-functional.spec.ts",
+              "id": "2d29057c9cbe35de0284-f9da14f20492e1e4d322",
+              "file": "IT223150966_positive-functional.spec.ts",
               "line": 60,
               "column": 9
             }
@@ -2069,15 +2069,15 @@
       ]
     },
     {
-      "title": "ui.spec.ts",
-      "file": "ui.spec.ts",
+      "title": "IT223150966_ui.spec.ts",
+      "file": "IT223150966_ui.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "UI Behavior Tests - Real-time Conversion & Usability",
-          "file": "ui.spec.ts",
+          "file": "IT223150966_ui.spec.ts",
           "line": 46,
           "column": 6,
           "specs": [
@@ -2094,10 +2094,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 21709,
+                      "duration": 20255,
                       "errors": [],
                       "stdout": [
                         {
@@ -2193,7 +2193,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T07:47:21.619Z",
+                      "startTime": "2026-01-30T08:06:24.462Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2201,8 +2201,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "d425444c687fa36b5882-705cc09092d9445eb99b",
-              "file": "ui.spec.ts",
+              "id": "7256fcb24f209ef863f5-b46c98728bb0a5030513",
+              "file": "IT223150966_ui.spec.ts",
               "line": 62,
               "column": 7
             }
@@ -2213,8 +2213,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-30T07:46:21.472Z",
-    "duration": 81941.874,
+    "startTime": "2026-01-30T08:05:34.876Z",
+    "duration": 69963.719,
     "expected": 35,
     "skipped": 0,
     "unexpected": 0,
