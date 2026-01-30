@@ -280,12 +280,6 @@ npx tsc --noEmit
 
 ---
 
-## License
-
-This project is developed strictly for academic purposes as part of a university assignment.
-
----
-
 ## Conclusion
 
 This automation project demonstrates structured test design, maintainable architecture, and practical Playwright automation aligned with university assessment requirements.
