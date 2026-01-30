@@ -1,98 +1,90 @@
-# SwiftTranslator Playwright Automation Testing 🎯
+# SwiftTranslator – Playwright Automation Testing
 
-## 📌 Project Information
+## Project Information
 
-**Course:** IT3040 - ITPM Semester 1  
-**Student ID:** IT23243026  
-**Assignment:** Playwright TypeScript Automation Testing  
-**System Under Test:** [SwiftTranslator.com](https://www.swifttranslator.com/)  
-**Technology Stack:** Playwright + TypeScript + Node.js  
-**Design Pattern:** Page Object Model (POM)
+* **Course:** IT3040 – IT Project Management (Semester 2)
+* **Student ID:** IT23150966
+* **Assignment:** Playwright Automation Testing (TypeScript)
+* **System Under Test:** [https://www.swifttranslator.com](https://www.swifttranslator.com)
+* **Tech Stack:** Playwright, TypeScript, Node.js
+* **Design Pattern:** Page Object Model (POM)
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
-This project automates functional and UI testing for the **SwiftTranslator** web application, which performs **real-time Singlish to Sinhala transliteration**.
+This project implements automated functional and UI testing for **SwiftTranslator**, a web-based application that performs real-time **Singlish to Sinhala transliteration**.
 
-### Test Coverage
+The test suite validates correct transliteration behavior, system robustness under invalid inputs, and real-time UI responsiveness using Playwright with TypeScript.
 
-| Test Type | File Name | Test Cases | Purpose |
-|-----------|-----------|------------|---------|
-| **Positive Functional** | `positive-functional.spec.ts` | 24 | Validate correct transliteration |
-| **Negative Functional** | `negative-functional.spec.ts` | 10 | Test system robustness |
-| **UI Behavior** | `ui.spec.ts` | 3 | Verify real-time conversion UI |
+---
+
+## Test Coverage Summary
+
+| Test Category             | Specification File            | No. of Tests | Description                          |
+| ------------------------- | ----------------------------- | ------------ | ------------------------------------ |
+| Positive Functional Tests | `positive-functional.spec.ts` | 24           | Validates correct transliteration    |
+| Negative Functional Tests | `negative-functional.spec.ts` | 10           | Evaluates robustness and limitations |
+| UI Behavior Tests         | `ui.spec.ts`                  | 3            | Verifies real-time UI behavior       |
 
 **Total Test Cases:** 37
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 swifttranslator-playwright/
 │
-├── tests/                                  # Test specification files
-│   ├── positive-functional.spec.ts        # 24 positive test cases
-│   ├── negative-functional.spec.ts        # 10 negative test cases
-│   └── ui.spec.ts                         # 3 UI behavior tests
+├── tests/
+│   ├── positive-functional.spec.ts
+│   ├── negative-functional.spec.ts
+│   └── ui.spec.ts
 │
-├── pages/                                  # Page Object Model
-│   └── translator.page.ts                 # TranslatorPage POM class
+├── pages/
+│   └── translator.page.ts
 │
-├── test-data/                              # Test data (JSON format)
-│   ├── positive-functional.json           # 24 positive test cases
-│   ├── negative-functional.json           # 10 negative test cases
-│   └── ui-tests.json                      # 1 UI test case
+├── test-data/
+│   ├── positive-functional.json
+│   ├── negative-functional.json
+│   └── ui-tests.json
 │
-├── screenshots/                            # Auto-generated screenshots
-│   └── (failure screenshots saved here)
+├── screenshots/
+├── playwright-report/
+├── test-results/
 │
-├── playwright-report/                      # HTML test reports
-│   └── (generated after test run)
-│
-├── test-results/                           # JSON test results
-│   └── results.json
-│
-├── playwright.config.ts                    # Playwright configuration
-├── package.json                            # Project dependencies
-├── package-lock.json                       # Dependency lock file
-├── tsconfig.json                           # TypeScript configuration
-└── README.md                               # This file
+├── playwright.config.ts
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation and Setup
 
 ### Prerequisites
 
-- **Node.js** (version 18 or higher)
-- **npm** (comes with Node.js)
-- **Git** (for version control)
+* Node.js (v18 or higher)
+* npm
+* Git
 
-### Step 1: Install Dependencies
+### Install Dependencies
 
 ```powershell
 npm install
 ```
 
-This will install:
-- Playwright Test Framework
-- TypeScript
-- All required dependencies
-
-### Step 2: Install Playwright Browsers
+### Install Playwright Browsers
 
 ```powershell
 npx playwright install
 ```
 
-This downloads Chromium, Firefox, and WebKit browsers.
-
 ---
 
-## 🚀 Running Tests
+## Test Execution
 
 ### Run All Tests
 
@@ -100,226 +92,133 @@ This downloads Chromium, Firefox, and WebKit browsers.
 npm test
 ```
 
-### Run Specific Test Suites
+### Run Individual Test Suites
 
 ```powershell
-# Positive functional tests (24 cases)
 npm run test:positive
-
-# Negative functional tests (10 cases)
 npm run test:negative
-
-# UI behavior tests (3 cases)
 npm run test:ui
 ```
 
-### Run Tests on Specific Browsers
+### Run Tests by Browser
 
 ```powershell
-# Run on Chromium (Google Chrome)
 npm run test:chromium
-
-# Run on Firefox
 npm run test:firefox
-
-# Run on WebKit (Safari)
 npm run test:webkit
 ```
 
-### Run Tests with UI Mode (Recommended for Debugging)
+### Debug and Interactive Modes
 
 ```powershell
 npm run test:ui-mode
-```
-
-This opens Playwright's interactive UI where you can:
-- Watch tests execute in real-time
-- Pause and step through tests
-- Inspect elements
-- View detailed logs
-
-### Run Tests in Headed Mode (See Browser)
-
-```powershell
 npm run test:headed
-```
-
-### Debug Individual Tests
-
-```powershell
 npm run test:debug
 ```
 
-### Run Specific Test Case by ID
+### Run a Specific Test Case
 
 ```powershell
-# Example: Run only Pos_Fun_0001
 npx playwright test -g "Pos_Fun_0001"
-
-# Example: Run only Neg_Fun_0003
 npx playwright test -g "Neg_Fun_0003"
 ```
 
 ---
 
-## 📊 View Test Reports
+## Test Reporting
 
-### View HTML Report
-
-After running tests, generate and open the HTML report:
+### HTML Report
 
 ```powershell
 npm run report
 ```
 
-Or manually:
+or
 
 ```powershell
 npx playwright show-report
 ```
 
-This opens a beautiful HTML report showing:
-- ✅ Passed tests
-- ❌ Failed tests
-- Screenshots of failures
-- Execution time
-- Detailed logs
+The report includes:
+
+* Test execution results
+* Failure screenshots
+* Execution duration
+* Detailed logs
 
 ---
 
-## 🧪 Test Execution Logic
+## Test Design and Logic
 
-### Positive Functional Tests ✅
+### Positive Functional Tests
 
-**Purpose:** Validate correct Singlish to Sinhala transliteration
+* Validate correct Singlish-to-Sinhala transliteration
+* Data-driven using JSON
+* Output compared against expected Sinhala text
+* Screenshot captured on failure
 
-**Process:**
-1. Load test case from `positive-functional.json`
-2. Type Singlish input into textarea
-3. Wait for real-time conversion (1-2 seconds)
-4. Retrieve Sinhala output
-5. Compare actual output with expected output
-6. Mark as **PASS** if they match, **FAIL** otherwise
-7. Take screenshot on failure
+**Example:**
 
-**Example Test Case:**
-- **Input:** `mama gedhara yanavaa`
-- **Expected Output:** `මම ගෙදර යනවා`
-- **Status:** PASS if actual = expected
+* Input: `mama gedhara yanavaa`
+* Expected Output: `මම ගෙදර යනවා`
 
 ---
 
-### Negative Functional Tests ⚠️
+### Negative Functional Tests
 
-**Purpose:** Test system robustness under incorrect/messy inputs
+* Test system behavior with incorrect or inconsistent inputs
+* Designed to expose system limitations
+* Soft assertions used to continue execution
+* Failures are acceptable and documented
 
-**Process:**
-1. Load problematic test case from `negative-functional.json`
-2. Type incorrect/messy Singlish input
-3. Wait for conversion
-4. Compare actual output with ideal expected output
-5. Mark as **PASS** if system handles edge case correctly
-6. Mark as **FAIL** if system cannot process correctly (expected behavior)
-7. Use soft assertions to continue testing
-8. Verify page remains responsive
+**Example:**
 
-**Important Note:**
-- Negative tests are **allowed to FAIL**
-- They document system limitations
-- Goal is to test robustness, not correctness
-
-**Example Test Case:**
-- **Input:** `MaMa GeDaRa YaNaVa` (random capitalization)
-- **Expected Output:** `මම ගෙදර යනවා`
-- **Status:** FAIL (system cannot normalize casing)
+* Input: `MaMa GeDaRa YaNaVa`
+* Expected Output: `මම ගෙදර යනවා`
+* Result: Fail (case normalization not supported)
 
 ---
 
-### UI Behavior Tests 🖥️
+### UI Behavior Tests
 
-**Purpose:** Validate real-time conversion and usability
-
-**What is Tested:**
-- ✅ Real-time output updates while typing
-- ✅ No button click required for conversion
-- ✅ Input clear functionality
-- ✅ Page responsiveness (no crashes)
-- ✅ Multiple conversions consistency
-
-**Process:**
-1. Type Singlish text character by character
-2. Verify output updates automatically in real-time
-3. Confirm no manual button click needed
-4. Test input clear behavior
-5. Check page stability
+* Real-time output updates during typing
+* No manual trigger required
+* Input clear functionality
+* Page responsiveness and stability
+* Multiple conversion consistency
 
 ---
 
-## 🎓 Key Features (Examiner-Friendly)
+## Automation Best Practices Applied
 
-### ✅ Design Patterns & Best Practices
-
-1. **Page Object Model (POM)**
-   - Centralized locators in `translator.page.ts`
-   - Reusable methods for all tests
-   - Easy maintenance
-
-2. **Data-Driven Testing**
-   - Test data separated into JSON files
-   - No hardcoded values in test scripts
-   - Easy to add/modify test cases
-
-3. **Clear Comments**
-   - Step-by-step explanations
-   - // Step 1, // Step 2, etc.
-   - Easy for examiners to understand
-
-4. **Screenshot on Failure**
-   - Automatic screenshots for failed tests
-   - Saved in `screenshots/` folder
-   - Useful for debugging
-
-5. **Comprehensive Reporting**
-   - HTML reports with detailed logs
-   - JSON results for CI/CD integration
-   - Console output with color coding
+* Page Object Model for maintainability
+* Data-driven testing using external JSON files
+* Clear step-by-step comments in test scripts
+* Automatic screenshot capture on failures
+* HTML and JSON reporting
+* Strict TypeScript configuration
 
 ---
 
-## 📦 Dependencies
-
-| Package | Version | Purpose |
-|---------|---------|---------|
-| `@playwright/test` | ^1.48.0 | Playwright test framework |
-| `typescript` | ^5.7.2 | TypeScript compiler |
-| `@types/node` | ^22.10.5 | Node.js type definitions |
-
----
-
-## 🔧 Configuration Files
+## Configuration Overview
 
 ### `playwright.config.ts`
 
-Configures:
-- Test directory location
-- Browser settings (Chromium, Firefox, WebKit)
-- Timeout values
-- Reporter configuration
-- Screenshot and video capture
-- Parallel execution
+* Browser configuration
+* Timeouts
+* Reporters
+* Screenshot and video settings
+* Parallel execution
 
 ### `tsconfig.json`
 
-TypeScript configuration for:
-- Target ES6 compilation
-- Node.js module resolution
-- Type checking settings
+* ES6 target
+* Strict type checking
+* Node module resolution
 
 ---
 
-## 📝 Test Data Format
-
-### JSON Structure
+## Sample Test Data Format
 
 ```json
 [
@@ -333,118 +232,62 @@ TypeScript configuration for:
 
 ---
 
-## 🎯 Automation Workflow
+## Troubleshooting
 
-```mermaid
-graph TD
-    A[Start Test] --> B[Load Test Data from JSON]
-    B --> C[Navigate to SwiftTranslator]
-    C --> D[Clear Input Field]
-    D --> E[Type Singlish Input]
-    E --> F[Wait for Real-time Conversion]
-    F --> G[Retrieve Sinhala Output]
-    G --> H{Compare Actual vs Expected}
-    H -->|Match| I[Mark as PASS]
-    H -->|Mismatch| J[Mark as FAIL]
-    J --> K[Take Screenshot]
-    K --> L[End Test]
-    I --> L
-```
+**Browsers not installed**
 
----
-
-## 🚨 Troubleshooting
-
-### Issue: Browsers not installed
-
-**Solution:**
 ```powershell
 npx playwright install
 ```
 
-### Issue: Tests failing due to timeout
+**Timeout issues**
 
-**Solution:** Increase timeout in `playwright.config.ts`
-```typescript
-timeout: 60000, // Increase to 60 seconds
+```ts
+timeout: 60000
 ```
 
-### Issue: Cannot find module errors
+**Dependency errors**
 
-**Solution:**
 ```powershell
 npm install
 ```
 
-### Issue: TypeScript errors
+**TypeScript validation**
 
-**Solution:**
 ```powershell
 npx tsc --noEmit
 ```
 
 ---
 
-## 📚 Additional Resources
+## Submission Checklist
 
-- [Playwright Documentation](https://playwright.dev/)
-- [TypeScript Documentation](https://www.typescriptlang.org/)
-- [Page Object Model Pattern](https://playwright.dev/docs/pom)
-- [SwiftTranslator Website](https://www.swifttranslator.com/)
-
----
-
-## 🎓 University Assignment Guidelines
-
-### ✅ Checklist for Submission
-
-- [x] Page Object Model implemented
-- [x] Test data in JSON format (not hardcoded)
-- [x] Clear step-by-step comments
-- [x] Screenshot on failure
-- [x] README.md with installation instructions
-- [x] All tests runnable with `npm test`
-- [x] Proper folder structure
-- [x] TypeScript with strict typing
-
-### 📤 Submission Format
-
-1. **GitHub Repository:** Push code to public GitHub repo
-2. **ZIP File:** Create zip with format `IT23243026_PlaywrightAutomation.zip`
-3. **Include:**
-   - All source code
-   - Test data JSON files
-   - README.md
-   - package.json
-   - screenshots folder (optional)
+* Page Object Model implemented
+* External JSON test data
+* Screenshots on failure
+* Executable via `npm test`
+* Proper folder structure
+* TypeScript with strict typing
+* README with setup and execution details
 
 ---
 
-## 📧 Contact Information
+## Submission Details
 
-**Student ID:** IT23243026  
-**Course:** IT3040 - ITPM Semester 1  
-**Assignment:** Playwright Automation Testing
-
----
-
-## 📄 License
-
-This project is created for educational purposes as part of a university assignment.
+* **GitHub Repository:** Public
+* **ZIP File Name:** `IT23243026_PlaywrightAutomation.zip`
+* Includes all source files and configuration
 
 ---
 
-## ✨ Conclusion
+## License
 
-This Playwright automation project demonstrates:
-- ✅ Professional test automation practices
-- ✅ Clean, maintainable code structure
-- ✅ Comprehensive test coverage
-- ✅ Real-world testing scenarios
-- ✅ University assignment standards
-
-**Thank you for reviewing this project! 🎓**
+This project is developed strictly for academic purposes as part of a university assignment.
 
 ---
 
-*Last Updated: January 29, 2026*
+## Conclusion
+
+This automation project demonstrates structured test design, maintainable architecture, and practical Playwright automation aligned with university assessment requirements.
+
+---
