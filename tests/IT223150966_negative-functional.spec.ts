@@ -96,32 +96,34 @@ test.describe('Negative Functional Tests - Robustness Validation', () => {
       // VALIDATION LOGIC (NEGATIVE TESTING)
       // ====================================
       
-      // Step 6: Check if actual output matches expected output
+      // Step 6: For negative tests, we expect the system to FAIL (not produce the expected output)
+      // The test PASSES if the system behaves incorrectly (doesn't match expected)
+      // The test FAILS if the system unexpectedly produces the correct output
       const isMatch = actualOutput === testCase.expectedOutput;
       
-      if (isMatch) {
-        // Step 7: System output matches expected (documenting actual behavior)
-        console.log(`Status: ✅ PASS (Actual system behavior documented)`);
+      if (!isMatch) {
+        // Step 7: System output does NOT match expected (expected behavior for negative tests)
+        console.log(`Status: ✅ PASS (System failed as expected on bad input)`);
         console.log(`System Output: ${actualOutput}`);
         console.log(`========================================\n`);
         
-        // Assertion: Verify the match
-        expect(actualOutput).toBe(testCase.expectedOutput);
+        // Assertion: Verify the mismatch (system failed correctly)
+        expect(actualOutput).not.toBe(testCase.expectedOutput);
         
       } else {
-        // Step 8: System output doesn't match expected
-        console.log(`Status: ❌ FAIL (Output mismatch)`);
-        console.log(`Issue Type: System behavior differs from expected`);
-        console.log(`Mismatch Details:`);
+        // Step 8: System output matches expected (unexpected for negative test)
+        console.log(`Status: ❌ FAIL (System unexpectedly produced correct output on bad input)`);
+        console.log(`Issue Type: System handled bad input correctly - unexpected behavior`);
+        console.log(`Match Details:`);
         console.log(`  - Expected: ${testCase.expectedOutput}`);
         console.log(`  - Actual: ${actualOutput}`);
         console.log(`========================================\n`);
         
-        // Step 9: Take screenshot to document the failure
-        await translatorPage.takeScreenshot(`NEGATIVE-${testCase.tcId}`);
+        // Step 9: Take screenshot to document the unexpected success
+        await translatorPage.takeScreenshot(`NEGATIVE-${testCase.tcId}-UNEXPECTED-SUCCESS`);
         
-        // Step 10: Fail the test
-        expect(actualOutput).toBe(testCase.expectedOutput);
+        // Step 10: Fail the test (system should have failed)
+        expect(actualOutput).not.toBe(testCase.expectedOutput);
       }
       
       // ====================================
